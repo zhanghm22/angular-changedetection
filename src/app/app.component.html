@@ -1,0 +1,26 @@
+<div class="demo-block">
+
+  <div>Pure Single Component</div>
+  <div>
+    <button (click)="changePureSingleComponentStatus('create')">Create Component</button>
+    <button (click)="changePureSingleComponentStatus('update')">Update Component</button>
+    <button (click)="changePureSingleComponentStatus('destroy')">Destroy Component</button>
+  </div>
+  <app-pure-single-component *ngIf="pureSingleComponentStatus" [status]="pureSingleComponentStatus">
+  </app-pure-single-component>
+
+</div>
+
+<div class="demo-block">
+
+  <div>Parent and Child Components</div>
+  <div>
+    <button (click)="changeParentChildComponentStatus('create')">Create Component</button>
+    <button (click)="changeParentChildComponentStatus('updateParent')">Update Parent Component</button>
+    <button (click)="changeParentChildComponentStatus('updateChild')">Update Child Component</button>
+    <button (click)="changeParentChildComponentStatus('destroy')">Destroy Component</button>
+  </div>
+  <app-parent-component *ngIf="parentChildComponentStatus.parent" [status]="parentChildComponentStatus">
+  </app-parent-component>
+
+</div>
