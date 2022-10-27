@@ -1,0 +1,36 @@
+
+
+> On Oct 26, 2022, at 22:35, 王子瑞 <15566884017@163.com> wrote:
+> 
+> Hi Lam,
+> 
+> Please find attached pure Java version package of test project as requested.
+> The ReadME inside would be of some help for you to review code I suppose, and please kindly find me anytime if any question you have.
+> 
+> Thanks,
+> Ray
+> <Distributed-Systems-pure-Java.zip>
+> 
+>> On Oct 23, 2022, at 22:04, 王子瑞 <15566884017@163.com> wrote:
+>> 
+>> Hi Lam,
+>> 
+>> Please find attached completed version of package as result of my programing test.
+>> 
+>> To startup app:
+>> 1. Go to ELB->starter, run StartAPP there.
+>> 2. Execute start.sh under root. [must have mvn installed]
+>> 
+>> To configure app:
+>> 1. Under ELB/src/main/resources, balancing algorithm is defined in application.yml [ “round” or “random” ]
+>> 2. In EAS/src/main/resources/servers.yml, you can define server/engine config follow the pattern as existing samples.
+>> 
+
+>> Please kindly find me anytime if any question about the code.
+>> 
+>> Thanks,
+>> Ray
+>> 
+>> <Distributed-Systems.zip>
+> 
+
